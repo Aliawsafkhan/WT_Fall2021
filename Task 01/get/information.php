@@ -2,6 +2,10 @@
 <body>
 
 Welcome <?php echo $_POST["fname"]; ?><?php echo $_POST["lname"]; ?><br>
+?php
+$validationmessage1="";
+$validationmessage2="";
+$validationmessage3="";
 
 if(isset($_POST["register"]))
 {
